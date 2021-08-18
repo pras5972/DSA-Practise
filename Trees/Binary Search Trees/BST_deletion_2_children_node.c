@@ -121,6 +121,7 @@ int main()
     {
         insert();
     }
+    printf("\nInorder Traversal of tree: ");
     inOrder(root);
     printf("\n");
 
@@ -130,6 +131,8 @@ int main()
     printf("Enter the node to be deleted: ");
     scanf("%d", &key);
     delete (key);
+    
+    printf("\nInorder Traversal of tree: ");
     inOrder(root);
     return 0;
 }
