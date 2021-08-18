@@ -82,6 +82,7 @@ int main()
     {
         insert();
     }
+    printf("\nInorder Traversal of tree: ");
     inOrder(root);
     printf("\n");
 
