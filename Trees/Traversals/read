@@ -1,0 +1,3 @@
+preOrder Traversal - root Left Right
+inOrder Traversal - Left root Right
+postOrder Traversal - Left Right root
